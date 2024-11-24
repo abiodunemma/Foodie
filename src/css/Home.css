@@ -1,0 +1,59 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  
+.background-container {
+    display: flex;
+    height: 100%;
+    background-color: #ffffff; /* Optional background color */
+  
+  }
+  .header{
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    flex-direction: row;
+  }
+  .icon{
+    width: 50px; /* Set the size of the icon */
+    height: 50px;
+    background-image: url('../assets/g12.png'); /* Path relative to the public folder */
+    background-size: cover; /* Ensure the image covers the element */
+    
+  }
+  .name{
+    margin-top: 20px;
+  }
+
+.image{
+  width: 100px; /* Set the size of the icon */
+  height: 100px;
+
+  background-size: cover; /* Ensure the image covers the element */
+  
+}
+.center{
+  margin-top: 80px;
+}
+
+
+.button{
+  background-color: darkgoldenrod;
+  border: none;
+  margin-top: 2%;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  font-size: medium;  
+  font: poppins;
+  border-radius: 10px;
+  color: white;
+}
+
+.welcome1{
+  margin-bottom: 50px;
+  
+}
