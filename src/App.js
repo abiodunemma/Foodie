@@ -4,6 +4,7 @@ import { BrowserRouter as Router,Route, Switch } from 'react-router-dom/cjs/reac
 import Home from './Home';
 import Page1 from './page1';
 import Sign from './Sign';
+import Email from './Email';
 
 
 function App() {
@@ -19,6 +20,9 @@ function App() {
             </Route>
             <Route path ='/Sign'>
           <Sign/>
+            </Route>
+            <Route path ='/Email'>
+          <Email/>
             </Route>
            
         </Switch>

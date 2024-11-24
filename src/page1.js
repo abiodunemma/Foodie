@@ -3,7 +3,6 @@ import { useHistory } from 'react-router-dom';
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 import './css/Home.css';
 import './css/page.1.css';
-
 import  g12 from './assets/g12.png'; 
 import  Illustration from './assets/page1.png'; 
 

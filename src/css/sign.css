@@ -1,0 +1,121 @@
+html, body {
+    height: 100%;
+    margin: 0;
+ 
+  
+  }
+
+  .background-container {
+    display: flex;
+    height: 100vh;
+    background-color: #ffffff; /* Optional background color */
+    
+  
+  }
+  .header{
+    text-align: center;
+  }
+  .welcome{
+    text-align: left;
+    
+  }
+  .text{
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+  .text1{
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    padding-bottom: 5px;
+  }
+  .comment{
+    text-align: left;
+    color: #DCDCDC;
+  }
+  .comment1{
+    font-weight: 2px;
+    font-size: smaller;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+  }
+  .comment2{
+    font-weight: 2px;
+    font-size: smaller;
+    padding-bottom: 10px;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+  }
+  .form{
+    text-align: left;
+  }
+  .name{
+    color: #DCDCDC;
+    font-weight: 1px;
+  
+  }
+ .email{
+    padding-bottom: 20px;
+ }
+ .input{
+    padding-bottom: 10px;
+     border: none;
+      outline: none;
+
+ }
+
+ .password{
+    color: #DCDCDC;
+    font-weight: 1px;
+
+  }
+  .forget{
+    color: #c4c4c4;
+    padding-top: 10px;
+  }
+  .next{
+    width: 90%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 15px;
+    background-color: #F8B64C;
+    color: white;
+    border: none;
+ 
+  }
+  .account{
+    color: #DCDCDC;
+  }
+  .new{
+    color:#F8B64C
+  }
+  .or{
+    font-size: medium;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-size: 30px;
+  }
+  .facebook{
+    width: 90%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 15px;
+    background-color: #395998;
+    color: white;
+    border: none;
+   
+  }
+.google{
+    margin-top: 20px;
+    width: 90%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 15px;
+    background-color: #4285F4;
+    color: white;
+    border: none;
+}
