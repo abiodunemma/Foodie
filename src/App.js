@@ -1,10 +1,11 @@
 import React from 'react';
-import './App.css';
+
 import { BrowserRouter as Router,Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
 import Home from './Home';
 import Page1 from './page1';
 import Sign from './Sign';
-import Email from './Email';
+import Rest from './Rest';
+
 
 
 function App() {
@@ -21,8 +22,8 @@ function App() {
             <Route path ='/Sign'>
           <Sign/>
             </Route>
-            <Route path ='/Email'>
-          <Email/>
+            <Route path ='/Rest'>
+          <Rest/>
             </Route>
            
         </Switch>

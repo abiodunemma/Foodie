@@ -7,7 +7,7 @@ const Sign = () => {
     const history = useHistory();
 
     const handleClick = () => {
-        history.push('/Email');
+        history.push('/Rest');
     };
 
   return (

@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+
+.main{
+    background-color: white;
+    height: 100vh;
+}
+.now{
+    margin-right: 300px;
+}
+.now1{
+   text-align: center;
+  
+}
+.sent{
+    font-weight: 100;
+}
+.instrun{
+    color: #DCDCDC;
+}
+.instrun1{
+    color: #DCDCDC;
+}
+.instrun2{
+    color:  darkgoldenrod;
+    margin-left: 20px;
+    
+}
+.button-email{
+    background-color: darkgoldenrod;
+    border: none;
+    margin-top: 2%;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: medium;  
+    font: poppins;
+    border-radius: 10px;
+    color: white;
+}
+.coffe-image{
+    margin-top: 50px;
+}
