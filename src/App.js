@@ -5,6 +5,8 @@ import Home from './Home';
 import Page1 from './page1';
 import Sign from './Sign';
 import Rest from './Rest';
+import Main from './Main';
+import Footer from './Footer';
 
 
 
@@ -25,7 +27,11 @@ function App() {
             <Route path ='/Rest'>
           <Rest/>
             </Route>
-           
+            <Route path ='/Main'>
+          <Main/>
+            </Route>
+           {/* Include Footer Component */}
+<Footer />
         </Switch>
     </div>
 </Router>

@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+.main-background{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+
+}
+
+.mains{
+    text-align: center;
+}
+
+
+
+/* Container to hold both images side by side */
+.container {
+    display: flex;              /* Use flexbox for horizontal layout */
+    justify-content: space-between;  /* Distribute space evenly between the images */
+    gap: 10px;                  /* Space between the image boxes */
+    margin-top: 20px;           /* Optional: Adds space from the top */
+    padding: 0 10px;            /* Optional: Add some padding on the sides */
+    width: 100%;                /* Make sure the container takes full width */
+    flex-wrap: nowrap;          /* Prevent wrapping of the images (no stacking) */
+    box-sizing: border-box;     /* Ensure padding doesn't affect the width */
+  }
+  
+  /* Style for each image box (container for image + description) */
+  .image-box {
+    position: relative; 
+    text-align: center;         /* Center-align text and images */
+    flex: 1;                    /* Allow each image box to take equal space */
+    max-width: 450%;             /* Set maximum width for each box (ensures both stay on the same row) */
+    box-sizing: border-box;     /* Include padding/border in width calculation */
+  }
+  
+  /* Style for images */
+  .image-box img {
+    width: 90%;                /* Make images take full width of their container */
+    height: auto;               /* Maintain the aspect ratio of the images */
+    border-radius: 8px;         /* Optional: Add rounded corners to images */
+  }
+  
+  /* Style for text below the image */
+  .image-box p {
+    text-align: left;
+    margin-top: 10px;           /* Space between the image and the text */
+    font-size: 16px;            /* Font size for the description text */
+    color: #333;                /* Set text color */
+  }
+  
+  .country{
+    font-weight: 100;
+    text-align: left;
+    color: #868686;
+    font-size: large;
+  }
+  .country2{
+    margin-left: 10px;
+  }
+  .button-on-image {
+  
+  }
