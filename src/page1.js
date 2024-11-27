@@ -19,7 +19,7 @@ const Page1 = () => {
     <div className='background-container '>
 
     <div className='header'>
-      <div className='name'>
+      <div className='home-name'>
       <h2>Tamang</h2>
    
 </div>
@@ -33,7 +33,7 @@ const Page1 = () => {
 <h2>Welcome</h2>
 </div>
 <div className='welcome'>
-<p>It a pleasure to meet you.we are </p>
+<p className='welcome2' >It a pleasure to meet you.we are </p>
 <p className='welcome1'>  exited we are where so let get started </p>
 </div>
 

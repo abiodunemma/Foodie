@@ -25,13 +25,18 @@ html, body {
     background-size: cover; /* Ensure the image covers the element */
     
   }
-  .name{
+  .home-name{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  
+    color: black;
     margin-top: 20px;
   }
 
 .image{
-  width: 30%; /* Set the size of the icon */
-  height: 30%;
+  width: 50%; /* Set the size of the icon */
+  height: 50%;
 
   background-size: cover; /* Ensure the image covers the element */
   
@@ -43,18 +48,24 @@ html, body {
 
 .button{
   background-color: darkgoldenrod;
-  border: none;
-  margin-top: 2%;
-  width: 100%;
-  text-align: center;
-  padding-top: 10px;
-  font-size: medium;  
-  font: poppins;
-  border-radius: 10px;
+  margin-top: 20px;
+  width: 90%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-radius: 15px;
+  
   color: white;
+  border: none;
 }
 
 .welcome1{
   margin-bottom: 50px;
-  
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.welcome2{
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }

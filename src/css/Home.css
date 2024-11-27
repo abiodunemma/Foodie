@@ -25,7 +25,8 @@ html, body {
     background-size: cover; /* Ensure the image covers the element */
     
   }
-  .name{
+  .home-name{
+    color: black;
     margin-top: 20px;
   }
 
@@ -41,20 +42,33 @@ html, body {
 }
 
 
-.button{
+.button7{
   background-color: darkgoldenrod;
-  border: none;
-  margin-top: 2%;
-  width: 100%;
-  text-align: center;
-  padding-top: 10px;
-  font-size: medium;  
-  font: poppins;
-  border-radius: 10px;
+  margin-top: 20px;
+  width: 90%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-radius: 15px;
+ 
   color: white;
+  border: none;
 }
 
 .welcome1{
+  text-align: center;
   margin-bottom: 50px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
   
+}
+
+.welcome2{
+  text-align: center;
+
+  
+}
+
+.welcome{
+  text-align: center;
 }
